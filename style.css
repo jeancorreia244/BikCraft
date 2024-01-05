@@ -90,8 +90,9 @@ p{
     right: -30px;
 }
 
-.detalhe{
-
+.introducao-cover img{
+    object-fit: cover;
+    height: 100%;
 }
 
 .botao{
@@ -147,4 +148,47 @@ p{
     padding: 40px;
     box-sizing: border-box;
     background: #ffffff;
+}
+
+@media (max-width: 1000px){
+    .conteudo-vantagem{
+        grid-template-columns: 1fr;
+    }
+
+    .subtitulo{
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px){
+
+    body{
+        gap: 30px;
+        margin-top: 20px;
+    }
+    .header{
+        max-width: 600px;
+        gap: 30px;
+    }
+
+    .conteudo{
+        grid-template-columns: 1fr;
+        max-width: 600px;
+    }
+
+    .introducao{
+        text-align: left;
+        justify-items: start;
+    }
+
+    .introducao::before{
+        display: none;
+    }
+    .subtitulo{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1000px){
+    
 }
