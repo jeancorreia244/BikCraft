@@ -1,0 +1,30 @@
+body{
+    background-color: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+h1{
+    text-align: center;
+}
+
+.img-bicletas{
+    max-width: 40%;
+}
+
+.bicicletas-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding: 20px;
+}
+
+.nome-bicletas{
+    text-align: start;
+}
