@@ -16,6 +16,7 @@ h1{
 
 .img-bicletas{
     max-width: 40%;
+    align-self: self-start;
 }
 
 .bicicletas-grid{
@@ -26,5 +27,5 @@ h1{
 }
 
 .nome-bicletas{
-    text-align: start;
+    align-self: self-start;
 }
