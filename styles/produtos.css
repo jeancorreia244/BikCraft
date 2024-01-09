@@ -4,6 +4,7 @@ body{
     margin: 0px;
     padding: 0px;
     
+
 }
 
 ul{
@@ -16,16 +17,19 @@ h1{
 
 .img-bicletas{
     max-width: 40%;
-    align-self: self-start;
+    justify-self: end;
 }
 
+.bicicleta-container{
+}
 .bicicletas-grid{
     display: grid;
+    background-color: rgb(211, 208, 208);
     grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    padding: 20px;
+    padding: 10px;
+    gap: 60px;
 }
 
 .nome-bicletas{
-    align-self: self-start;
+    justify-self: start;
 }
