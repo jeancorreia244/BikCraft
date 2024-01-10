@@ -3,8 +3,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
-    
-
+    display: grid;
+    gap: 60px;
+    justify-items: center;
+    margin-top: 60px;
 }
 
 ul{
@@ -18,16 +20,19 @@ h1{
 .img-bicletas{
     max-width: 40%;
     justify-self: end;
+    border-radius: 5px;
 }
 
 .bicicleta-container{
 }
 .bicicletas-grid{
     display: grid;
-    background-color: rgb(211, 208, 208);
-    grid-template-columns: 1fr 1fr;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: 1fr 1fr ;
     padding: 10px;
     gap: 60px;
+    width: 1400px;
+    height: auto;
 }
 
 .nome-bicletas{
