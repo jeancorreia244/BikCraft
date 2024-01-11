@@ -26,7 +26,7 @@ h1{
 .bicicleta-container{
 }
 .bicicletas-grid{
-    display: grid;
+    display: flex;
     background-color: rgb(255, 255, 255);
     grid-template-columns: 1fr 1fr ;
     padding: 10px;
